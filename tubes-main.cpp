@@ -65,8 +65,8 @@ lingkaran_plastic_specular[] = {0.7, 0.6, 0.6},
 lingkaran_plastic_shininess = 32.0;
 
 GLfloat
-lingkaran_nyala[] = {0.0, 0.0, 0.0},
-lingkaran_nyala_plastic_diffuse[] = {1.0, 1.0, 1.0},
+lingkaran_nyala[] = {1.0, 1.0, 1.0},
+lingkaran_nyala_plastic_diffuse[] = {1.0, 1.0, 0.0},
 lingkaran_nyala_plastic_specular[] = {0.7, 0.6, 0.6},
 lingkaran_nyala_plastic_shininess = 32.0;
 
@@ -96,7 +96,7 @@ kawah_gunung_shininess = 27.8;
 
 GLfloat
 villa[] = {0.0, 0.0, 0.0},
-villa_plastic_diffuse[] = {1.0, 0.3, 0.3},
+villa_plastic_diffuse[] = {0.7, 0.7, 0.3},
 villa_plastic_specular[] = {0.7, 0.6, 0.6},
 villa_plastic_shininess = 32.0;
 
@@ -1219,7 +1219,7 @@ int main(int argc, char **argv)
   glutSpecialFunc(keyboard);
   glutKeyboardFunc(keyboard2);
   glutDisplayFunc(display);
-  glClearColor(0.7, 1.0, 0.7, 0.0);
+  glClearColor(0.3, 0.7, 1.0, 0.0);
   
    
   glLightfv(GL_LIGHT0, GL_POSITION, cahaya_kiri);
