@@ -2,8 +2,8 @@
 Kelompok 9
 Kelas IF-9
 Nama:
-     1. 10107286 - Restiana Ayunita 
-     2. 10108431 - Luthfiana Adityarini
+     1. 10108431 - Luthfiana Adityarini
+     2. 10107286 - Restiana Ayunita 
      3. 10108439 - R. Adzie Ramadani Kusumah
      4. 10108445 - Alfiyah 
 */
@@ -62,7 +62,7 @@ GLfloat
 lingkaran[] = {0.0, 0.0, 0.0},
 lingkaran_plastic_diffuse[] = {0.7, 0.7, 0.7},
 lingkaran_plastic_specular[] = {0.7, 0.6, 0.6},
-lingkaran_plastic_shininess = 32.0;
+lingkaran_plastic_shininess = 30.0;
 
 GLfloat
 lingkaran_nyala[] = {1.0, 1.0, 1.0},
