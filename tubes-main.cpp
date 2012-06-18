@@ -2,8 +2,8 @@
 Kelompok 9
 Kelas IF-9
 Nama:
-     1. 10107286 - Restiana Ayunita 
-     2. 10108431 - Luthfiana Adityarini
+     1. 10108431 - Luthfiana Adityarini
+     2. 10107286 - Restiana Ayunita 
      3. 10108439 - R. Adzie Ramadani Kusumah
      4. 10108445 - Alfiyah 
 */
